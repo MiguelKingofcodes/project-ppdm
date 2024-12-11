@@ -4,19 +4,19 @@ import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createDrawerNavigator, DrawerItemList, DrawerItem } from '@react-navigation/drawer';
-import LoginScreen from './src/screens/LoginScreen';
-import RegisterScreen from './src/screens/RegisterScreen';
-import ForgotPasswordScreen from './src/screens/ForgotPasswordScreen';
-import HomeScreen from './src/screens/HomeScreen';
+import LoginScreen from './LoginScreen';
+import RegisterScreen from './RegisterScreen';
+import ForgotPasswordScreen from './ForgotPasswordScreen';
+import HomeScreen from './HomeScreen';
 // import ProdutosScreen from './src/screens/ProdutosScreen';
-import { UserProvider, UserContext } from './src/context/UserContext';  // Importar o contexto
+import { UserProvider, UserContext } from './UserContext';  // Importar o contexto
 import { SafeAreaView } from 'react-native-safe-area-context';
 // https://oblador.github.io/react-native-vector-icons/
 // import { MaterialCommunityIcons } from 'react-native-vector-icons';
 
 // Atividade
-import ProductScreen from './src/screens/ProductScreen';
-import ProfileScreen from './src/screens/ProfileScreen';
+import ProductScreen from './ProductScreen';
+import ProfileScreen from './ProfileScreen';
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();

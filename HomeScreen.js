@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Text, Image, StyleSheet } from 'react-native';
-import { UserContext } from '../context/UserContext'; // Importar o contexto
+import { UserContext } from './UserContext'; // Importar o contexto
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {

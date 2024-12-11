@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { TextInput, TouchableOpacity, StyleSheet, Alert, Text, Image } from 'react-native';
 import { CommonActions } from '@react-navigation/native';
 import axios from 'axios';
-import { UserContext } from '../context/UserContext'; // Importar o contexto
+import { UserContext } from './UserContext'; // Importar o contexto
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 const LoginScreen = ({ navigation }) => {

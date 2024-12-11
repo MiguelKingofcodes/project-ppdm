@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react';
 import { Text, Image, StyleSheet, ActivityIndicator, Alert } from 'react-native';
 import axios from 'axios';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { UserContext } from '../context/UserContext';
+import { UserContext } from './UserContext';
 
 export default function ProfileScreen() {
   const { user } = useContext(UserContext);
