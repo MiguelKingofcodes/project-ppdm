@@ -75,6 +75,7 @@ function HomeDrawer() {
         // })}
       />
       <Drawer.Screen name="Produtos" component={ProductScreen} />
+      <Drawer.Screen name="CadastrarProdutos" component={ProductFormScreen} />
       <Drawer.Screen name="Perfil" component={ProfileScreen} />
     </Drawer.Navigator>
   );
